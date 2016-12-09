@@ -1,3 +1,2 @@
-FROM tomcat:8.0
-MAINTAINER Bryan Robbins <bryantrobbins@gmail.com>
+FROM tomcat:7
 COPY tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
